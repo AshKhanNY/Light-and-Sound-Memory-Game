@@ -4,7 +4,7 @@ Name: Ashraq Khan
 ------------------------
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 > I used websites like w3schools.com and freeCodeCamp.org to find different colors to customize my website, as well as learn about all the
-different types of listeners and customization options there are.
+different types of listeners and customization options.
 
 2. What was a challenge you encountered in creating this submission (be specific)? How did you overcome it? (recommended 200 - 400 words)
 > A challenge that I encountered while creating this submission is finding out the best way to format the logic statements near the end of the
