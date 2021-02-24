@@ -47,3 +47,11 @@ Here's a walkthrough of implemented user stories and optional stories:
 
 - [Link to Code](https://glitch.com/edit/#!/onyx-rose-honesty)
 - [Link to Website](https://onyx-rose-honesty.glitch.me)
+
+# Optional Features Added
+- More than 4 game buttons present
+- Speeds up after every round
+- Uses a random secret pattern
+- Gives the player 3 strikes
+- Better designed buttons w/ image upon click
+- Ticking clock added, resets per round
