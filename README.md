@@ -42,3 +42,8 @@ wrong.
 Here's a walkthrough of implemented user stories and optional stories:
 
 <img src='https://github.com/AshKhanNY/Light-and-Sound-Memory-Game/blob/main/Light_And_Sound_Game_Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Code and Website
+
+- [Link to Code](https://glitch.com/edit/#!/onyx-rose-honesty)
+- [Link to Website](https://onyx-rose-honesty.glitch.me)
