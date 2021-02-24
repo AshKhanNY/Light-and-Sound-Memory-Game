@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Hello!</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+  </head>  
+  <body>
+    <h1>Light and Sound Memory Game</h1>
+    
+    <p>
+      Welcome, player! Press the start button to begin, and stop when you feel like it.
+      <br/> <hr>
+    Time Remaining: <t id="timer">0:08</t>
+    </p>
+    
+    <!-- Buttons Area -->
+    <button id="startBtn" onclick="startGame()">
+      Start
+    </button>
+    <button id="stopBtn" onclick="stopGame()" class="hidden">
+      Stop
+    </button>
+    
+    <div id="gameBtnArea">
+      <button id="btn1" onclick="guess(1)" onmousedown="startTone(1), reveal(1)" onmouseup="stopTone(), hide(1)">
+        <img id="img1" class="hidden" src="https://cdn.glitch.com/47077e0c-7e27-4deb-abf0-d5f1e7865797%2FgreenSmile.jpg?v=1614197432220">
+      </button>
+     
+      <button id="btn2" onclick="guess(2)" onmousedown="startTone(2), reveal(2)" onmouseup="stopTone(), hide(2)">
+        <img id="img2" class="hidden" src="https://cdn.glitch.com/47077e0c-7e27-4deb-abf0-d5f1e7865797%2FblueSmile.jpg?v=1614197786773">
+      </button>
+      
+      <button id="btn3" onclick="guess(3)" onmousedown="startTone(3), reveal(3)" onmouseup="stopTone(), hide(3)">
+        <img id="img3" class="hidden" src="https://cdn.glitch.com/47077e0c-7e27-4deb-abf0-d5f1e7865797%2FredSmile.jpg?v=1614197439300">
+      </button>
+     
+      <button id="btn4" onclick="guess(4)" onmousedown="startTone(4), reveal(4)" onmouseup="stopTone(), hide(4)">
+        <img id="img4" class="hidden" src="https://cdn.glitch.com/47077e0c-7e27-4deb-abf0-d5f1e7865797%2FyellowSmile.jpg?v=1614197442423">
+      </button>
+     
+      <button id="btn5" onclick="guess(5)" onmousedown="startTone(5), reveal(5)" onmouseup="stopTone(), hide(5)">
+        <img id="img5" class="hidden" src="https://cdn.glitch.com/47077e0c-7e27-4deb-abf0-d5f1e7865797%2FpinkSmile.jpg?v=1614197436439">
+      </button>
+     
+      <button id="btn6" onclick="guess(6)" onmousedown="startTone(6), reveal(6)" onmouseup="stopTone(), hide(6)">
+        <img id="img6" class="hidden" src="https://cdn.glitch.com/47077e0c-7e27-4deb-abf0-d5f1e7865797%2ForangeSmile.jpg?v=1614197433300">
+      </button>
+    </div>
+    
+  </body>
+</html>
