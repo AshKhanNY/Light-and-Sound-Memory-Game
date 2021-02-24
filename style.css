@@ -1,0 +1,52 @@
+/* CSS files add styling rules to your content */
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #99cacf;  /* Dirty skyblue */
+  color: white
+}
+
+h1 {
+  font-family: courier new, verdana, arial, sans-serif; 
+  color: rgb(80, 5, 117); /* Midnight purple */
+}
+
+button {
+  padding: 20px;
+  border-radius: 18px;
+  margin: 5px;
+}
+
+img {
+  display: block;
+  max-width:150px;
+  width: auto;
+  height: auto;
+}
+
+/* Changing button attributes depending on state */
+#btn1 { background: lightgreen; }
+#btn2 { background: lightblue; }
+#btn3 { background: pink; }
+#btn4 { background: lightyellow; }
+#btn5 { background: #f0b3ff; }
+#btn6 { background: #ffddcc; }
+
+#btn1:active, #btn1.lit { background:green; }
+#btn2:active, #btn2.lit { background:blue; }
+#btn3:active, #btn3.lit { background:red; }
+#btn4:active, #btn4.lit { background:yellow; }
+#btn5:active, #btn5.lit { background:purple; }
+#btn6:active, #btn6.lit { background:#ff884d; }
+
+
+#gameBtnArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden { 
+  display: none;
+}
