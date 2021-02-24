@@ -36,3 +36,9 @@ I would add some 8-bit free music in the background, and give the user an option
 keeps going until the user messes up and it records the highest score). I would also change the look of the font and background to make it appear more colorful and 
 cheerful. Perhaps adding animations to the buttons will make this project look a little more professional, as well as an audio cue for when you get a button right or
 wrong.
+
+## Video Walkthrough
+
+Here's a walkthrough of implemented user stories and optional stories:
+
+<img src='https://github.com/AshKhanNY/Light-and-Sound-Memory-Game/blob/main/Light_And_Sound_Game_Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
