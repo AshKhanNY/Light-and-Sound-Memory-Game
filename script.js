@@ -46,6 +46,7 @@ function startGame(){
 function stopGame(){
   //update game variables
   gamePlaying = true;
+  clueHoldTime = 1000;
   restart();
   // swap the Stop and Start buttons
   document.getElementById("startBtn").classList.remove("hidden");
