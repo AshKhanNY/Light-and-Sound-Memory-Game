@@ -31,6 +31,7 @@ var time = setInterval(function(){
 
 function startGame(){
   //initialize game variables
+  restart();
   pattern = [];
   randomArray(pattern);
   mistakes = 0;
@@ -137,7 +138,6 @@ function guess(btn){
 
 function loseGame(){
   stopGame();
-  restart();
   alert("Game Over! You lost.");
 }
 
