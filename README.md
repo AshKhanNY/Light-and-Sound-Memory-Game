@@ -1,7 +1,47 @@
-SITE Pre-Work Submission
-========================
-Name: Ashraq Khan
-------------------------
+# Pre-work - *Memory Game*
+
+**Memory Game** is a Light & Sound Memory game to apply for CodePath's SITE Program. 
+
+Submitted by: Ashraq Khan
+
+Time spent: 5 hours spent in total
+
+- [Link to Code](https://glitch.com/edit/#!/onyx-rose-honesty)
+- [Link to Website](https://onyx-rose-honesty.glitch.me)
+
+## Required Functionality
+
+The following **required** functionality is complete:
+
+* [X] Game interface has a heading (h1 tag), a line of body text (p tag), and four buttons that match the demo app
+* [X] "Start" button toggles between "Start" and "Stop" when clicked. 
+* [X] Game buttons each light up and play a sound when clicked. 
+* [X] Computer plays back sequence of clues including sound and visual cue for each button
+* [X] Play progresses to the next turn (the user gets the next step in the pattern) after a correct guess. 
+* [X] User wins the game after guessing a complete pattern
+* [X] User loses the game after an incorrect guess
+
+The following **optional** features are implemented:
+
+* [X] Any HTML page elements (including game buttons) has been styled differently than in the tutorial
+* [X] Buttons use a pitch (frequency) other than the ones in the tutorial
+* [X] More than 4 functional game buttons
+* [X] Playback speeds up on each turn
+* [X] Computer picks a different pattern each time the game is played
+* [X] Player only loses after 3 mistakes (instead of on the first mistake)
+* [X] Game button appearance change goes beyond color (e.g. add an image)
+* [ ] Game button sound is more complex than a single tone (e.g. an audio file, a chord, a sequence of multiple tones)
+* [X] User has a limited amount of time to enter their guess on each turn
+
+The following **additional** features are implemented:
+
+* [X] Ticking clock added, resets per round
+
+## Video Walkthrough
+
+<img src='https://github.com/AshKhanNY/Light-and-Sound-Memory-Game/blob/main/Light_And_Sound_Game_Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+## Reflection Questions
 1. If you used any outside resources to help complete your submission (websites, books, people, etc) list them here. 
 > I used websites like w3schools.com and freeCodeCamp.org to find different colors to customize my website, as well as learn about all the
 different types of listeners and customization options.
@@ -37,21 +77,23 @@ keeps going until the user messes up and it records the highest score). I would 
 cheerful. Perhaps adding animations to the buttons will make this project look a little more professional, as well as an audio cue for when you get a button right or
 wrong.
 
-## Video Walkthrough
+## License
 
-Here's a walkthrough of implemented user stories and optional stories:
+    Copyright Azwad Shameem
 
-<img src='https://github.com/AshKhanNY/Light-and-Sound-Memory-Game/blob/main/Light_And_Sound_Game_Walkthrough.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
 
-## Code and Website
+        http://www.apache.org/licenses/LICENSE-2.0
 
-- [Link to Code](https://glitch.com/edit/#!/onyx-rose-honesty)
-- [Link to Website](https://onyx-rose-honesty.glitch.me)
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
 
-### Optional Features Added
-- More than 4 game buttons present
-- Speeds up after every round
-- Uses a random secret pattern
-- Gives the player 3 strikes
-- Better designed buttons w/ image upon click
-- Ticking clock added, resets per round
+
+
+
+
